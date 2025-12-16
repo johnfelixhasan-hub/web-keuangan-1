@@ -1,0 +1,104 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #001aff;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Container utama */
+.container {
+  background: rgb(59, 30, 187);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+  width: 600px;
+}
+
+/* Judul */
+h1, h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Form input */
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Input, select, button */
+input, select, button {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Input & select */
+input, select {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* Tombol */
+button {
+  background-color: #15bfb7;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0daf94;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+/* Header & isi tabel */
+table th,
+table td {
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 8px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Header tabel */
+table th {
+  background: rgba(255,255,255,0.15);
+  font-weight: 600;
+}
+
+/* Ringkasan */
+.summary {
+  margin-top: 15px;
+  background: rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+/* Tombol Excel */
+.excel-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* File input */
+input[type="file"] {
+  background: #ffffff;
+  color: #000000;
+  padding: 6px;
+  border-radius: 8px;
+}
